@@ -9,15 +9,15 @@ export default function PageDetail({ title, subtitle, href, src }) {
 
   return (
     <div
-      className="relative bg-black rounded-3xl overflow-hidden h-20"
+      className="relative rounded-3xl overflow-hidden flex items-center justify-center"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <Image
         src={src}
         alt="Asya Hun Bayrak"
-        className={`${
-          isHovered ? "opacity-50 transition-all duration-300" : ""
+        className={`rounded-3xl ${
+          isHovered ? "transition-all brightness-50 duration-1000" : ""
         }`}
         onLoad={(e) => {
           const { naturalWidth, naturalHeight } = e.target;

@@ -1,6 +1,6 @@
 import PageDetail from "@/components/page-detail";
-import AsyaHunBayrak from "@/public/asya-hun.png";
-import AvrupaHunBayrak from "@/public/avrupa-hun.png";
+import AsyaHunBayrak from "@/public/asya-hun.svg";
+import AvrupaHunBayrak from "@/public/avrupa-hun.svg";
 
 export const metadata = {
   title: "Türk Tarihi - Ehl-i Tarih",
