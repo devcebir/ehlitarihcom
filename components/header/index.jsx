@@ -11,7 +11,7 @@ export default function Header() {
         </Link>
       </h1>
 
-      <nav className="flex items-center justify-center gap-10 font-medium">
+      <nav className="flex items-center justify-center gap-10 font-medium max-[768px]:hidden">
         <Link
           className="hover:text-sky-900 transition-all duration-300"
           href="/"

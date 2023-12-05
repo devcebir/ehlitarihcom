@@ -12,7 +12,7 @@ export const metadata = {
 export default function page() {
   return (
     <main className=" px-2">
-      <div className="flex gap-3">
+      <div className="flex gap-3 max-[768px]:flex-col">
         <div className="relative">
           <Image
             src={asyahun}
@@ -20,13 +20,13 @@ export default function page() {
             priority
             className="h-full w-[60rem] brightness-75"
           />
-          <div className="absolute bottom-5 left-5 text-4xl font-semibold text-white hover:-translate-y-4 hover:underline transform transition-all duration-300">
+          <div className="absolute bottom-5 left-5 text-4xl max-[768px]:text-2xl font-semibold text-white hover:-translate-y-4 hover:underline transform transition-all duration-300">
             <Link href="/asya-hun-devleti-tarihi-ve-kulturel-miras">
               <h4>Asya Hun Devleti: Tarihi ve Kültürel Miras</h4>
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col max-[768px]:flex-row gap-3">
           <BlogPost
             src={selcuklu}
             alt="Selçuklu Devleti'nin Kültürel Mirası: Medrese Sistemi ve Mimari Eserler"
