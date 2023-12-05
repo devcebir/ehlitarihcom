@@ -18,7 +18,7 @@ export default function PageDetail({ title, subtitle, href, src }) {
         priority
         alt="Asya Hun Bayrak"
         className={` ${
-          isHovered ? "transition-all brightness-50 duration-1000" : ""
+          isHovered ? "transition-all brightness-50 duration-1000 cursor-pointer" : ""
         }`}
       />
 
