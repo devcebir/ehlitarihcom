@@ -1,134 +1,46 @@
+import asyahun from "@/public/asya-hun-devleti-tarihi-ve-kulturel-miras.svg";
+import selcuklu from "@/public/selcuklu-devleti-kulturel-mirasi-medrese-sistemi-mimari-eserler.svg";
+import Image from "next/image";
+import BlogPost from "@/components/blog";
+import Link from "next/link";
+
 export const metadata = {
-  title: "Anasayfa - Ehl-i Tarih",
+  title: "Ana Sayfa / Ehl-i Tarih",
+  description: "Page description",
 };
 
 export default function page() {
   return (
-    <main className="flex flex-col items-center justify-center gap-10 px-80 max-[1286px]:px-56 max-[1024px]:px-40 max-[768px]:px-24 max-[480px]:px-10 max-[325px]:px-5">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa,
-        laboriosam voluptas ducimus magni voluptatem optio voluptate itaque
-        rerum accusantium quod sequi numquam, velit libero architecto iste illum
-        ipsam iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Iste placeat aliquid nemo, sequi dignissimos nisi accusantium ipsum
-        incidunt. Sit nobis fugiat omnis itaque temporibus doloribus maiores
-        eius quisquam mollitia nemo. Lorem ipsum dolor sit, amet consectetur
-        adipisicing elit. Dolorum distinctio quod voluptatem facilis vero! Eum
-        at, nemo ipsam dolorem inventore veniam expedita error nam maiores,
-        voluptates corrupti dolores odit labore. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Ad culpa, laboriosam voluptas ducimus
-        magni voluptatem optio voluptate itaque rerum accusantium quod sequi
-        numquam, velit libero architecto iste illum ipsam iusto. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Iste placeat aliquid nemo,
-        sequi dignissimos nisi accusantium ipsum incidunt. Sit nobis fugiat
-        omnis itaque temporibus doloribus maiores eius quisquam mollitia nemo.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-        distinctio quod voluptatem facilis vero! Eum at, nemo ipsam dolorem
-        inventore veniam expedita error nam maiores, voluptates corrupti dolores
-        odit labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-        culpa, laboriosam voluptas ducimus magni voluptatem optio voluptate
-        itaque rerum accusantium quod sequi numquam, velit libero architecto
-        iste illum ipsam iusto. Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Iste placeat aliquid nemo, sequi dignissimos nisi
-        accusantium ipsum incidunt. Sit nobis fugiat omnis itaque temporibus
-        doloribus maiores eius quisquam mollitia nemo. Lorem ipsum dolor sit,
-        amet consectetur adipisicing elit. Dolorum distinctio quod voluptatem
-        facilis vero! Eum at, nemo ipsam dolorem inventore veniam expedita error
-        nam maiores, voluptates corrupti dolores odit labore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa,
-        laboriosam voluptas ducimus magni voluptatem optio voluptate itaque
-        rerum accusantium quod sequi numquam, velit libero architecto iste illum
-        ipsam iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Iste placeat aliquid nemo, sequi dignissimos nisi accusantium ipsum
-        incidunt. Sit nobis fugiat omnis itaque temporibus doloribus maiores
-        eius quisquam mollitia nemo. Lorem ipsum dolor sit, amet consectetur
-        adipisicing elit. Dolorum distinctio quod voluptatem facilis vero! Eum
-        at, nemo ipsam dolorem inventore veniam expedita error nam maiores,
-        voluptates corrupti dolores odit labore. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Ad culpa, laboriosam voluptas ducimus
-        magni voluptatem optio voluptate itaque rerum accusantium quod sequi
-        numquam, velit libero architecto iste illum ipsam iusto. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Iste placeat aliquid nemo,
-        sequi dignissimos nisi accusantium ipsum incidunt. Sit nobis fugiat
-        omnis itaque temporibus doloribus maiores eius quisquam mollitia nemo.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-        distinctio quod voluptatem facilis vero! Eum at, nemo ipsam dolorem
-        inventore veniam expedita error nam maiores, voluptates corrupti dolores
-        odit labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-        culpa, laboriosam voluptas ducimus magni voluptatem optio voluptate
-        itaque rerum accusantium quod sequi numquam, velit libero architecto
-        iste illum ipsam iusto. Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Iste placeat aliquid nemo, sequi dignissimos nisi
-        accusantium ipsum incidunt. Sit nobis fugiat omnis itaque temporibus
-        doloribus maiores eius quisquam mollitia nemo. Lorem ipsum dolor sit,
-        amet consectetur adipisicing elit. Dolorum distinctio quod voluptatem
-        facilis vero! Eum at, nemo ipsam dolorem inventore veniam expedita error
-        nam maiores, voluptates corrupti dolores odit labore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa,
-        laboriosam voluptas ducimus magni voluptatem optio voluptate itaque
-        rerum accusantium quod sequi numquam, velit libero architecto iste illum
-        ipsam iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Iste placeat aliquid nemo, sequi dignissimos nisi accusantium ipsum
-        incidunt. Sit nobis fugiat omnis itaque temporibus doloribus maiores
-        eius quisquam mollitia nemo. Lorem ipsum dolor sit, amet consectetur
-        adipisicing elit. Dolorum distinctio quod voluptatem facilis vero! Eum
-        at, nemo ipsam dolorem inventore veniam expedita error nam maiores,
-        voluptates corrupti dolores odit labore. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Ad culpa, laboriosam voluptas ducimus
-        magni voluptatem optio voluptate itaque rerum accusantium quod sequi
-        numquam, velit libero architecto iste illum ipsam iusto. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Iste placeat aliquid nemo,
-        sequi dignissimos nisi accusantium ipsum incidunt. Sit nobis fugiat
-        omnis itaque temporibus doloribus maiores eius quisquam mollitia nemo.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-        distinctio quod voluptatem facilis vero! Eum at, nemo ipsam dolorem
-        inventore veniam expedita error nam maiores, voluptates corrupti dolores
-        odit labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-        culpa, laboriosam voluptas ducimus magni voluptatem optio voluptate
-        itaque rerum accusantium quod sequi numquam, velit libero architecto
-        iste illum ipsam iusto. Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Iste placeat aliquid nemo, sequi dignissimos nisi
-        accusantium ipsum incidunt. Sit nobis fugiat omnis itaque temporibus
-        doloribus maiores eius quisquam mollitia nemo. Lorem ipsum dolor sit,
-        amet consectetur adipisicing elit. Dolorum distinctio quod voluptatem
-        facilis vero! Eum at, nemo ipsam dolorem inventore veniam expedita error
-        nam maiores, voluptates corrupti dolores odit labore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa,
-        laboriosam voluptas ducimus magni voluptatem optio voluptate itaque
-        rerum accusantium quod sequi numquam, velit libero architecto iste illum
-        ipsam iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Iste placeat aliquid nemo, sequi dignissimos nisi accusantium ipsum
-        incidunt. Sit nobis fugiat omnis itaque temporibus doloribus maiores
-        eius quisquam mollitia nemo. Lorem ipsum dolor sit, amet consectetur
-        adipisicing elit. Dolorum distinctio quod voluptatem facilis vero! Eum
-        at, nemo ipsam dolorem inventore veniam expedita error nam maiores,
-        voluptates corrupti dolores odit labore. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Ad culpa, laboriosam voluptas ducimus
-        magni voluptatem optio voluptate itaque rerum accusantium quod sequi
-        numquam, velit libero architecto iste illum ipsam iusto. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Iste placeat aliquid nemo,
-        sequi dignissimos nisi accusantium ipsum incidunt. Sit nobis fugiat
-        omnis itaque temporibus doloribus maiores eius quisquam mollitia nemo.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-        distinctio quod voluptatem facilis vero! Eum at, nemo ipsam dolorem
-        inventore veniam expedita error nam maiores, voluptates corrupti dolores
-        odit labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-        culpa, laboriosam voluptas ducimus magni voluptatem optio voluptate
-        itaque rerum accusantium quod sequi numquam, velit libero architecto
-        iste illum ipsam iusto. Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Iste placeat aliquid nemo, sequi dignissimos nisi
-        accusantium ipsum incidunt. Sit nobis fugiat omnis itaque temporibus
-        doloribus maiores eius quisquam mollitia nemo. Lorem ipsum dolor sit,
-        amet consectetur adipisicing elit. Dolorum distinctio quod voluptatem
-        facilis vero! Eum at, nemo ipsam dolorem inventore veniam expedita error
-        nam maiores, voluptates corrupti dolores odit labore.
-      </p>
+    <main className=" px-2">
+      <div className="flex gap-3">
+        <div className="relative">
+          <Image
+            src={asyahun}
+            alt="Asya-Hun"
+            priority
+            className="h-full w-[60rem] brightness-75"
+          />
+          <div className="absolute bottom-5 left-5 text-4xl font-semibold text-white hover:-translate-y-4 hover:underline transform transition-all duration-300">
+            <Link href="/asya-hun-devleti-tarihi-ve-kulturel-miras">
+              <h4>Asya Hun Devleti: Tarihi ve Kültürel Miras</h4>
+            </Link>
+          </div>
+        </div>
+        <div className="flex flex-col gap-3">
+          <BlogPost
+            src={selcuklu}
+            alt="Selçuklu Devleti'nin Kültürel Mirası: Medrese Sistemi ve Mimari Eserler"
+            title="Selçuklu Devleti'nin Kültürel Mirası: Medrese Sistemi ve Mimari Eserler"
+            postSrc="/selcuklu-devleti-kulturel-mirasi-medrese-sistemi-mimari-eserler"
+          />
+          <BlogPost
+            src={asyahun}
+            alt="Göktürk"
+            title="Göktürklerin Kuruluş ve Yükselme Tarihi"
+            postSrc="/gokturk"
+          />
+        </div>
+      </div>
     </main>
   );
 }
