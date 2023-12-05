@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa6";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 w-full bg-slate-50 dark:bg-black flex mb-5 items-center justify-between px-56 max-[1286px]:px-44 max-[1024px]:px-20 max-[768px]:px-3">
+    <header className="sticky top-0 w-full z-50 bg-slate-50 dark:bg-black flex mb-5 items-center justify-between px-56 max-[1286px]:px-44 max-[1024px]:px-20 max-[768px]:px-3">
       <Link
         href="/"
         className="flex items-center gap-3 hover:text-[#27374ddc] dark:hover:text-[#DDE6ED] transition-all duration-300 py-3"

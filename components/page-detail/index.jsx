@@ -9,7 +9,7 @@ export default function PageDetail({ title, subtitle, href, src }) {
 
   return (
     <div
-      className="relative overflow-hidden"
+      className="relative"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
