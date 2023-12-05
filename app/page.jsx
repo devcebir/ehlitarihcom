@@ -4,7 +4,7 @@ export const metadata = {
 
 export default function page() {
   return (
-    <main className="flex flex-col items-center justify-center gap-10 px-80 max-[1286px]:px-56 max-[1024px]:px-40 max-[768px]:px-24 max-[480px]:px-10 max-[325px]:px-0">
+    <main className="flex flex-col items-center justify-center gap-10 px-80 max-[1286px]:px-56 max-[1024px]:px-40 max-[768px]:px-24 max-[480px]:px-10 max-[325px]:px-5">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa,
         laboriosam voluptas ducimus magni voluptatem optio voluptate itaque

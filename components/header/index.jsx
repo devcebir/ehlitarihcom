@@ -2,6 +2,8 @@ import { GiBowArrow } from "react-icons/gi";
 import Link from "next/link";
 import ThemeComp from "../themeComp";
 import { IoMenuOutline } from "react-icons/io5";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 
 export default function Header() {
   return (
@@ -29,7 +31,23 @@ export default function Header() {
         </Link>
 
         <IoMenuOutline className="text-2xl hidden max-[768px]:block" />
-        <ThemeComp />
+        <div className="flex items-center justify-end gap-3 text-xl">
+          <Link
+            className="hover:text-[#27374ddc] dark:hover:text-[#DDE6ED] transition-all duration-300 max-[768px]:hidden"
+            href="https://twitter.com/ehlitarihcom"
+            target="_blank"
+          >
+            <FaXTwitter />
+          </Link>
+          <Link
+            className="hover:text-[#27374ddc] dark:hover:text-[#DDE6ED] transition-all duration-300 max-[768px]:hidden"
+            href="https://instagram.com/ehlitarihcom"
+            target="_blank"
+          >
+            <FaInstagram />
+          </Link>
+          <ThemeComp />
+        </div>
       </nav>
     </header>
   );

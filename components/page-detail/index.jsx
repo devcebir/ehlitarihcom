@@ -9,7 +9,7 @@ export default function PageDetail({ title, subtitle, href, src }) {
 
   return (
     <div
-      className="relative  overflow-hidden flex items-center justify-center"
+      className="relative overflow-hidden"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -18,14 +18,16 @@ export default function PageDetail({ title, subtitle, href, src }) {
         priority
         alt="Asya Hun Bayrak"
         className={` ${
-          isHovered ? "transition-all brightness-50 duration-1000 cursor-pointer" : ""
+          isHovered
+            ? "transition-all brightness-50 duration-1000 cursor-pointer"
+            : ""
         }`}
       />
 
       {isHovered && (
         <Link
           href={href}
-          className="overlay text-center absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center  hover:bg-opacity-50 text-white"
+          className="overlay text-center absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center hover:bg-opacity-50 text-white"
         >
           <h3 className="text-2xl font-bold">{title}</h3>
           <p className="">{subtitle}</p>

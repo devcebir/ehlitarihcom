@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function page() {
   return (
-    <div className="px-80 flex items-center gap-5">
+    <div className="px-80 flex items-center gap-5 h-screen">
       <PageDetail
         title="Asya Hun Devleti"
         subtitle="MÖ 220-MÖ 58"
