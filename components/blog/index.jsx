@@ -23,6 +23,6 @@ export default function BlogPost({ src, title, alt, postSrc }) {
           <h4>{title}</h4>
         </Link>
       </div>
-    </div>
+    </div> 
   );
 }
